@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "mountFresh": "deno run -A -r https://fresh.deno.dev .",
+    "start": "deno run -A --watch=static/,routes/ dev.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
