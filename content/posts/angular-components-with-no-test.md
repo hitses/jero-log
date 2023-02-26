@@ -1,6 +1,6 @@
 ---
 title: Evitar crear archivos test en Angular Components con CLI
-date: 2023-02-22
+date: 2023-02-26
 excerpt: Cómo crear componentes en Angular sin el archivo de pruebas sin modificar el comando de creación.
 ---
 
