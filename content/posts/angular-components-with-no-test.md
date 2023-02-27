@@ -27,3 +27,30 @@ Dentro del objeto se añade la siguiente línea de código:
 ```
 
 Guardar los cambios realizados en los archivos modificados y listo.
+
+Se puede añadir el siguiente extracto de código en **"schematics"**:
+
+```
+"@schematics/angular:component": {
+  "style": "scss",
+  "skipTests": true
+},
+"@schematics/angular:class": {
+  "skipTests": true
+},
+"@schematics/angular:directive": {
+  "skipTests": true
+},
+"@schematics/angular:guard": {
+  "skipTests": true
+},
+"@schematics/angular:module": {
+  "skipTests": true
+},
+"@schematics/angular:pipe": {
+  "skipTests": true
+},
+"@schematics/angular:service": {
+  "skipTests": true
+}
+```
