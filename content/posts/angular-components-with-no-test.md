@@ -1,17 +1,23 @@
 ---
-title: Evitar crear archivos test en Angular Components con CLI
-date: 2023-02-26
-excerpt: Cómo crear componentes en Angular sin el archivo de pruebas sin modificar el comando de creación.
+title: Evitar crear archivos test en Angular
+date: 2023-02-27
+excerpt: Cómo crear cualquier tipo de elemento en Angular sin el archivo de pruebas y sin modificar el comando de creación.
 ---
 
 Se comprueba que el proyecto no se encuentra en estado de ejecución.
 
 Dentro del proyecto de Angular, se accede al archivo **angular.json** en la raíz de directorios.
 
-Se busca con Command + F (MacOs) o Ctrl + F (Windows)
+Se busca con Command + F (MacOs) o Ctrl + F (Windows) el elemento que no queramos crear con su archivo de pruebas unitarias:
 
 ```
 "@schematics/angular:component"
+"@schematics/angular:class"
+"@schematics/angular:directive"
+"@schematics/angular:guard"
+"@schematics/angular:module"
+"@schematics/angular:pipe"
+"@schematics/angular:service"
 ```
 
 Dentro del objeto se añade la siguiente línea de código:
@@ -20,4 +26,4 @@ Dentro del objeto se añade la siguiente línea de código:
 "skipTests": true
 ```
 
-Guardar.
+Guardar los cambios realizados en los archivos modificados y listo.
