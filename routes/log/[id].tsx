@@ -17,6 +17,12 @@ export default function PagePost(props: PageProps) {
     <article class="p-4">
       <h1 class="text-2xl font-bold">{post.title}</h1>
       <time>{Intl.DateTimeFormat("es").format(post.date)}</time>
+      <div></div>
+      <button class="text-blue-600">
+        <a href="/">Back home</a>
+      </button>
+      <hr />
+      
       <style dangerouslySetInnerHTML={{ __html: CSS }}>
       </style>
       <div
