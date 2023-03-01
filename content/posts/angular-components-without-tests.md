@@ -2,13 +2,17 @@
 title: Evitar crear archivos test en Angular
 date: 2023-03-01
 excerpt: Cómo crear cualquier tipo de elemento en Angular sin el archivo de pruebas y sin modificar el comando de creación.
+labels:
+  - Angular
 ---
 
 Se comprueba que el proyecto no se encuentra en estado de ejecución.
 
-Dentro del proyecto de Angular, se accede al archivo **angular.json** en la raíz de directorios.
+Dentro del proyecto de Angular, se accede al archivo **angular.json** en la raíz
+de directorios.
 
-Se busca con Command + F (MacOs) o Ctrl + F (Windows) el elemento que no queramos crear con su archivo de pruebas unitarias:
+Se busca con Command + F (MacOs) o Ctrl + F (Windows) el elemento que no
+queramos crear con su archivo de pruebas unitarias:
 
 ```
 "@schematics/angular:component"
