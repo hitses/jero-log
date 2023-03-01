@@ -1,6 +1,6 @@
 ---
 title: Evitar crear archivos test en Angular
-date: 2023-02-27
+date: 2023-03-01
 excerpt: Cómo crear cualquier tipo de elemento en Angular sin el archivo de pruebas y sin modificar el comando de creación.
 ---
 
