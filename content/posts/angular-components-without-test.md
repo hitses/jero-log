@@ -15,7 +15,6 @@ Se busca con Command + F (MacOs) o Ctrl + F (Windows) el elemento que no queramo
 "@schematics/angular:class"
 "@schematics/angular:directive"
 "@schematics/angular:guard"
-"@schematics/angular:module"
 "@schematics/angular:pipe"
 "@schematics/angular:service"
 ```
@@ -42,9 +41,6 @@ Se puede añadir el siguiente extracto de código en **"schematics"**:
   "skipTests": true
 },
 "@schematics/angular:guard": {
-  "skipTests": true
-},
-"@schematics/angular:module": {
   "skipTests": true
 },
 "@schematics/angular:pipe": {
