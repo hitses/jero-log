@@ -4,5 +4,4 @@ export interface Post {
   body: string;
   date: Date;
   excerpt: string;
-  labels: string[];
 }

@@ -2,8 +2,6 @@
 title: Instalar aplicaciones Homebrew en MacOs con chip Silicon
 date: 2023-02-22
 excerpt: Cómo instalar aplicaciones con Homebrew en ordenadores Apple con MacOs y chip Silicon.
-labels:
-  - Homebrew
 ---
 
 La documentación oficial de Hombrew se encuentra en su
